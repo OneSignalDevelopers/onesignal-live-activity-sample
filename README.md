@@ -18,6 +18,8 @@ OneSignal makes engaging customers simple and is the fastest, most reliable serv
 
 This project demonstrates  [Live Activities](https://developer.apple.com/documentation/activitykit/displaying-live-data-with-live-activities) for iOS
 
+
+
 ## 🚦 Getting started
 Several useful resources for getting up and running with Live Activities
 
@@ -25,7 +27,7 @@ Several useful resources for getting up and running with Live Activities
 - [Live Activities Channel](https://documentation.onesignal.com/docs/live-activities)
 - [Permission Prompting](https://documentation.onesignal.com/docs/permission-prompting)
 
-
+<img src="./assets/live-activity.gif"/>
 
 
 # ❤️ Developer Community

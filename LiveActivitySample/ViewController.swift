@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     }
     
     func setupButtons() {
-        var startLiveActivityButton = UIButton()
+        let startLiveActivityButton = UIButton()
         startLiveActivityButton.setTitle("Start Live Activity", for: .normal)
         startLiveActivityButton.backgroundColor = .gray
         startLiveActivityButton.setTitleColor(UIColor.black, for: .normal)
@@ -35,12 +35,12 @@ class ViewController: UIViewController {
     @objc
     func buttonTapped(sender : UIButton) {
         startLiveActivity()
-       
     }
     
     func startLiveActivity() {
-        let attributes = OneSignalWidgetAttributes(name: "OneSignal Dev App Live Activity")
-        let contentState = OneSignalWidgetAttributes.ContentState(value: 5)
+        var future = Calendar.current.date(byAdding: .minute, value: (Int(15) ?? 0), to: Date())!
+        let attributes = OneSignalWidgetAttributes(timer: Date.now...future, imageLeft: "Knights", teamNameLeft: "Knights", imageRight: "Pirates", teamNameRight: "Pirates", gameName: "Western Conference Round 1")
+        let contentState = OneSignalWidgetAttributes.ContentState(quarter: 1, scoreLeft: 0, scoreRight: 0, bottomText: "The game has started!")
         
         do {
             let activity = try Activity<OneSignalWidgetAttributes>.request(
@@ -50,7 +50,7 @@ class ViewController: UIViewController {
             Task {
                 for await data in activity.pushTokenUpdates {
                     let myToken = data.map {String(format: "%02x", $0)}.joined()
-                    OneSignal.enterLiveActivity("my_activity_id", withToken: myToken)
+                    OneSignal.enterLiveActivity("knightsvspirates", withToken: myToken)
                 }
             }
         } catch (let error) {

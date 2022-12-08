@@ -506,9 +506,10 @@
 				CODE_SIGN_ENTITLEMENTS = LiveActivitySample/LiveActivitySample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J3J28YJX9L;
+				DEVELOPMENT_TEAM = 99SW8E36CT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LiveActivitySample/Info.plist;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -519,7 +520,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.OneSignal.LiveActivitySample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onesignal.example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -536,9 +537,10 @@
 				CODE_SIGN_ENTITLEMENTS = LiveActivitySample/LiveActivitySample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J3J28YJX9L;
+				DEVELOPMENT_TEAM = 99SW8E36CT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LiveActivitySample/Info.plist;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -549,7 +551,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.OneSignal.LiveActivitySample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onesignal.example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -563,7 +565,7 @@
 				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J3J28YJX9L;
+				DEVELOPMENT_TEAM = 99SW8E36CT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
@@ -574,7 +576,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.OneSignal.LiveActivitySample.OneSignalNotificationServiceExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onesignal.example.OneSignalNotificationServiceExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -589,7 +591,7 @@
 				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J3J28YJX9L;
+				DEVELOPMENT_TEAM = 99SW8E36CT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
@@ -600,7 +602,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.OneSignal.LiveActivitySample.OneSignalNotificationServiceExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onesignal.example.OneSignalNotificationServiceExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -616,7 +618,7 @@
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J3J28YJX9L;
+				DEVELOPMENT_TEAM = 99SW8E36CT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OneSignalWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = OneSignalWidget;
@@ -627,7 +629,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.OneSignal.LiveActivitySample.OneSignalWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onesignal.example.OneSignalWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -643,7 +645,7 @@
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J3J28YJX9L;
+				DEVELOPMENT_TEAM = 99SW8E36CT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OneSignalWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = OneSignalWidget;
@@ -654,7 +656,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.OneSignal.LiveActivitySample.OneSignalWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onesignal.example.OneSignalWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;

@@ -36,10 +36,10 @@ struct OneSignalWidgetLiveActivity: Widget {
                                 .resizable()
                                 .aspectRatio(contentMode: .fill)
                                 .frame(width: 35, height: 35)
-                            Text(context.attributes.teamNameLeft).font(.system(size: 12, weight: .regular))
+                            Text(context.attributes.teamNameLeft).font(.system(size: 12, weight: .regular)).foregroundColor(.black)
                         }
                         //100
-                        Text(String(context.state.scoreLeft)).font(.system(size: 24, weight: .regular)).padding(.leading, 24)
+                        Text(String(context.state.scoreLeft)).font(.system(size: 24, weight: .regular)).padding(.leading, 24).foregroundColor(.black)
                     }.padding(.leading, 10)
                     Spacer()
                     VStack(alignment: .center) {
@@ -52,17 +52,17 @@ struct OneSignalWidgetLiveActivity: Widget {
                         Text(timerInterval: context.attributes.timer, countsDown: true)
                                             .multilineTextAlignment(.center)
                                             .frame(width: 40)
-                                            .font(.caption2)
+                                            .font(.caption2).foregroundColor(.black)
                     }
                     Spacer()
                     HStack {
-                        Text(String(context.state.scoreRight)).font(.system(size: 24, weight: .regular)).padding(.trailing, 24)
+                        Text(String(context.state.scoreRight)).font(.system(size: 24, weight: .regular)).padding(.trailing, 24).foregroundColor(.black)
                         VStack(alignment: .center) {
                             Image(context.attributes.imageRight)
                                 .resizable()
                                 .aspectRatio(contentMode: .fill)
                                 .frame(width: 35, height: 35)
-                            Text(context.attributes.teamNameRight).font(.system(size: 12, weight: .regular))
+                            Text(context.attributes.teamNameRight).font(.system(size: 12, weight: .regular)).foregroundColor(.black)
                         }.padding(.trailing, 10)
                     }
                    
@@ -73,15 +73,13 @@ struct OneSignalWidgetLiveActivity: Widget {
                         .aspectRatio(contentMode: .fill)
                         .frame(width: 35, height: 35).padding(.leading, 10).padding(.top, 10).padding(.bottom, 10)
                     VStack(alignment: .leading) {
-                        Text(context.attributes.gameName).font(.system(size: 14, weight: .bold))
-                        Text(context.state.bottomText).font(.system(size: 12, weight: .regular))
+                        Text(context.attributes.gameName).font(.system(size: 14, weight: .bold)).foregroundColor(.black)
+                        Text(context.state.bottomText).font(.system(size: 12, weight: .regular)).foregroundColor(.black)
                     }
                     Spacer()
                   
                 }.padding(5).background(Color.init(red: 0.898, green: 0.91, blue: 0.922), in: Rectangle())
             }.padding(.top,15).activityBackgroundTint(.white).activitySystemActionForegroundColor(.black)
-
-           
         } dynamicIsland: { context in
             DynamicIsland {
                 // Expanded UI goes here.  Compose the expanded UI through

@@ -38,7 +38,7 @@ class ViewController: UIViewController {
     }
     
     func startLiveActivity() {
-        var future = Calendar.current.date(byAdding: .minute, value: (Int(15) ?? 0), to: Date())!
+        let future = Calendar.current.date(byAdding: .minute, value: (Int(15) ), to: Date())!
         let attributes = OneSignalWidgetAttributes(timer: Date.now...future, imageLeft: "Knights", teamNameLeft: "Knights", imageRight: "Pirates", teamNameRight: "Pirates", gameName: "Western Conference Round 1")
         let contentState = OneSignalWidgetAttributes.ContentState(quarter: 1, scoreLeft: 0, scoreRight: 0, bottomText: "The game has started!")
         

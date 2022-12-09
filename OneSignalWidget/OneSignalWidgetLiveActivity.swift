@@ -77,6 +77,8 @@ struct OneSignalWidgetLiveActivity: Widget {
                         Text(context.state.bottomText).font(.system(size: 12, weight: .regular)).foregroundColor(.black)
                     }
                     Spacer()
+                    Capsule().fill(.red)
+                        .frame(width: 2, height: 30).padding(.trailing, 10)
                   
                 }.padding(5).background(Color.init(red: 0.898, green: 0.91, blue: 0.922), in: Rectangle())
             }.padding(.top,15).activityBackgroundTint(.white).activitySystemActionForegroundColor(.black)

@@ -22,7 +22,7 @@ This project demonstrates  [Live Activities](https://developer.apple.com/documen
 
 ## 🚦 Getting started
 Several useful resources for getting up and running with Live Activities
-
+- [Live Activity Project Setup Guide](https://documentation.onesignal.com/docs/how-to-send-a-live-activity)
 - [Live Activities Quickstart Guide](https://documentation.onesignal.com/docs/live-activities-quickstart)
 - [Live Activities Channel](https://documentation.onesignal.com/docs/live-activities)
 - [Permission Prompting](https://documentation.onesignal.com/docs/permission-prompting)

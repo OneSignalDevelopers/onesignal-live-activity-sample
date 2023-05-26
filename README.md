@@ -1,4 +1,4 @@
-![OneSignal](https://github.com/OneSignal/.github/blob/439e36ade56b001643ff3b07eeaf95b20129f3e6/assets/onesignal-banner.png)
+![OneSignal](https://raw.githubusercontent.com/OneSignalDevelopers/.github/main/assets/onesignal-banner.png)
 
 <div align="center">
   <a href="https://documentation.onesignal.com/docs/onboarding-with-onesignal" target="_blank">Quickstart</a>
@@ -16,19 +16,18 @@
 
 OneSignal makes engaging customers simple and is the fastest, most reliable service to send push notifications, in-app messages, SMS, and emails.
 
-This project demonstrates  [Live Activities](https://developer.apple.com/documentation/activitykit/displaying-live-data-with-live-activities) for iOS
-
-
+This project demonstrates [Live Activities](https://developer.apple.com/documentation/activitykit/displaying-live-data-with-live-activities) for iOS
 
 ## 🚦 Getting started
+
 Several useful resources for getting up and running with Live Activities
+
 - [Live Activity Project Setup Guide](https://documentation.onesignal.com/docs/how-to-send-a-live-activity)
 - [Live Activities Quickstart Guide](https://documentation.onesignal.com/docs/live-activities-quickstart)
 - [Live Activities Channel](https://documentation.onesignal.com/docs/live-activities)
 - [Permission Prompting](https://documentation.onesignal.com/docs/permission-prompting)
 
 <img src="./assets/live-activity.gif"/>
-
 
 # ❤️ Developer Community
 

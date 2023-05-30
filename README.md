@@ -1,3 +1,5 @@
+⚠️ This repo is no longer maintained, please refer to the [iOS sample app](https://github.com/OneSignalDevelopers/onesignal-ios-sample) instead. ⚠️
+
 ![OneSignal](https://raw.githubusercontent.com/OneSignalDevelopers/.github/main/assets/onesignal-banner.png)
 
 <div align="center">
